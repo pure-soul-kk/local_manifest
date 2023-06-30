@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="main" fetch="https://github.com/pure-soul-kk"/>
+  <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
+  <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
+  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  
+<!--Trees-->
+  <project path="device/xiaomi/sweet"
+           name="device_xiaomi_sweet"
+           remote="main"
+           revision="pixys" />
+           
+  <project path="device/xiaomi/sm6150-common"
+           name="device_xiaomi_sm6150-common"
+           remote="main"
+           revision="pixys" />
+           
+  <project path="vendor/xiaomi/sweet"
+           name="proprietary_vendor_xiaomi_sweet"
+           remote="main"
+           revision="thirteen" />
+           
+  <project path="vendor/xiaomi/sm6150-common"
+           name="proprietary_vendor_xiaomi_sm6150-common "
+           remote="main"
+           revision="thirteen" />
+
+  <project path="kernel/xiaomi/sm6150-common"
+           name="kernel_xiaomi_sm6150"
+           remote="main"
+           revision="t13" clone-depth="1" />
+  
+<!--Hardware-->
+  <project path="hardware/xiaomi"
+           name="android_hardware_xiaomi"
+           remote="hard"
+           revision="arrow-13.1" />
+
+<!--ANX Cam-->
+  <project path="vendor/xiaomi/sweet-miuicamera"
+           name="android_vendor_xiaomi_sweet-miuicamera"
+           remote="main"
+           revision="thirteen" clone-depth="1" />
+  
+<!--Clang--> 
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+           name="clang-r450784d" 
+           remote="ImSurajxD" 
+           revision="master" />
+           
+<!--Toolchain-->
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747c"
+           name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
+           remote="clang" 
+           revision="13.0" clone-depth="1" />
+  
+</manifest>
