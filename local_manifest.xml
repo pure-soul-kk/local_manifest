@@ -8,7 +8,6 @@
  
 
 <!--Removals-->
-<remove-project name="hardware_xiaomi_megvii"/>
 <remove-project name="frameworks_base"/>
 
 <!--Trees-->
