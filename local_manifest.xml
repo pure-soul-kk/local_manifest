@@ -22,11 +22,11 @@
            revision="thirteen" />
            
   <project path="vendor/xiaomi/sm6150-common"
-           name="proprietary_vendor_xiaomi_sm6150-common "
+           name="proprietary_vendor_xiaomi_sm6150-common"
            remote="main"
            revision="thirteen" />
 
-  <project path="kernel/xiaomi/sm6150-common"
+  <project path="kernel/xiaomi/sm6150"
            name="kernel_xiaomi_sm6150"
            remote="main"
            revision="t13" clone-depth="1" />
