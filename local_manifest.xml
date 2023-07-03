@@ -61,7 +61,7 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/clang-r487747c"
+  <project path="prebuilts/clang/host/linux-x86/r487747c"
            name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
            remote="clang" 
            revision="13.0" clone-depth="1" />
