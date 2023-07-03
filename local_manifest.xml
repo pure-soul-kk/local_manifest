@@ -46,7 +46,7 @@
   <project path="vendor/xiaomi/sweet-miuicamera"
            name="vendor_xiaomi_sweet-miuicamera"
            remote="leica"
-           revision="13-qpr3" clone-depth="1" />
+           revision="13" clone-depth="1" />
 
 <!--Fwb--> 
   <project path="frameworks/base" 
