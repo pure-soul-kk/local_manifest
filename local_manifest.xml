@@ -1,57 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="main" fetch="https://github.com/pure-soul-kk"/>
-  <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
-  <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="leica" fetch="https://gitlab.com/sweetin" /> 
- 
+  <remote name="elixir" fetch="https://github.com/ProjectElixir-Devices"/>
+  <remote name="bhei" fetch="https://github.com/Amritorock"/>
 
 <!--Removals-->
-<remove-project name="frameworks_base"/>
+<remove-project name="bionic"/>
 
 <!--Trees-->
-  <project path="device/xiaomi/sweet"
-           name="device_xiaomi_sweet"
+  <project path="device/nokia/PL2"
+           name="device_nokia_PL2"
            remote="main"
-           revision="pixys" />
+           revision="pos" />
            
-  <project path="device/xiaomi/sm6150-common"
-           name="device_xiaomi_sm6150-common"
+  <project path="device/nokia/sdm660-common"
+           name="device_nokia_sdm660-common"
            remote="main"
-           revision="pixys" />
+           revision="pos" />
            
-  <project path="vendor/xiaomi/sweet"
-           name="proprietary_vendor_xiaomi_sweet"
-           remote="main"
-           revision="thirteen" />
+  <project path="vendor/nokia/PL2"
+           name="proprietary_vendor_nokia_PL2"
+           remote="elixir"
+           revision="lineage-20" />
            
-  <project path="vendor/xiaomi/sm6150-common"
-           name="proprietary_vendor_xiaomi_sm6150-common"
-           remote="main"
-           revision="thirteen" />
+  <project path="vendor/nokia/sdm660-common"
+           name="proprietary_vendor_nokia_sdm660-common"
+           remote="elixir"
+           revision="tiramisu" />
 
-  <project path="kernel/xiaomi/sm6150"
-           name="kernel_xiaomi_sm6150"
-           remote="main"
-           revision="t13" clone-depth="1" />
-  
-<!--Hardware-->
-  <project path="hardware/xiaomi"
-           name="android_hardware_xiaomi"
-           remote="hard"
-           revision="arrow-13.1" />
+  <project path="kernel/nokia/sdm660"
+           name="kernel_nokia_sdm660"
+           remote="elixir"
+           revision="tiramisu" clone-depth="1" />
 
-<!--ANX Cam-->
-  <project path="vendor/xiaomi/sweet-miuicamera"
-           name="vendor_xiaomi_sweet-miuicamera"
-           remote="leica"
-           revision="13" clone-depth="1" />
-
-<!--Fwb--> 
-  <project path="frameworks/base" 
-           name="frameworks_base-1"
-           remote="main" 
+<!--bionic--> 
+  <project path="bionic" 
+           name="bionic"
+           remote="bhei" 
            revision="thirteen" />
   
 <!--Clang--> 
@@ -61,9 +46,9 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/r487747c"
-           name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
-           remote="clang" 
-           revision="13.0" clone-depth="1" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b"
+           name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" 
+           remote="main" 
+           revision="lineage-20.0" clone-depth="1" />
   
 </manifest>
