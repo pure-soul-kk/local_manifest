@@ -2,11 +2,10 @@
 <manifest>
   <remote name="main" fetch="https://github.com/pure-soul-kk"/>
   <remote name="elixir" fetch="https://github.com/ProjectElixir-Devices"/>
-  <remote name="bhei" fetch="https://github.com/Amritorock"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
 <!--Removals-->
-<remove-project name="bionic"/>
+<remove-project name="android_bionic"/>
 
 <!--Trees-->
   <project path="device/nokia/PL2"
@@ -36,9 +35,9 @@
 
 <!--bionic--> 
   <project path="bionic" 
-           name="bionic"
-           remote="bhei" 
-           revision="thirteen" />
+           name="android_bionic"
+           remote="main" 
+           revision="triton" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
