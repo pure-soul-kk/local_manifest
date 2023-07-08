@@ -45,11 +45,5 @@
            name="clang-r450784d"
            remote="ImSurajxD" 
            revision="master" />
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b"
-           name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" 
-           remote="main" 
-           revision="lineage-20.0" clone-depth="1" />
   
 </manifest>
