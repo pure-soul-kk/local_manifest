@@ -6,6 +6,8 @@
 
 <!--Removals-->
 <remove-project name="android_bionic"/>
+<remove-project name="LineageOS/android_device_qcom_sepolicy"/>
+<remove-project name="android_packages_apps_Updater"/>
 
 <!--Trees-->
   <project path="device/nokia/PL2"
@@ -38,7 +40,32 @@
            name="android_bionic"
            remote="main" 
            revision="triton" />
-  
+
+<!--sepolicy--> 
+  <project path="device/qcom/sepolicy" 
+           name="android_device_qcom_sepolicy"
+           remote="main" 
+           revision="lineage-20.0" />
+
+<!--sepolicy-leagcy-um--> 
+  <project path="device/qcom/sepolicy-legacy-um" 
+           name="android_device_qcom_sepolicy"
+           remote="main" 
+           revision="lineage-20.0-legacy-um" />  
+
+
+<!--vendor/awaken--> 
+  <project path="vendor/awaken" 
+           name="android_vendor_awaken"
+           remote="main" 
+           revision="triton" />
+
+<!--updater--> 
+  <project path="packages/apps/Updater" 
+           name="android_packages_apps_Updater"
+           remote="main" 
+           revision="triton" />
+
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
            name="clang-r450784d"
