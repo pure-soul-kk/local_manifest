@@ -8,6 +8,7 @@
 <remove-project name="android_bionic"/>
 <remove-project name="LineageOS/android_device_qcom_sepolicy"/>
 <remove-project name="android_packages_apps_Updater"/>
+<remove-project name="android_vendor_awaken"/>
 
 <!--Trees-->
   <project path="device/nokia/PL2"
