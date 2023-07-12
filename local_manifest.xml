@@ -2,7 +2,6 @@
 <manifest>
   <remote name="main" fetch="https://github.com/pure-soul-kk"/>
   <remote name="elixir" fetch="https://github.com/ProjectElixir-Devices"/>
-  <remote name="bhei" fetch="https://github.com/Amritorock"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
 <!--Removals-->
@@ -12,12 +11,12 @@
   <project path="device/nokia/PL2"
            name="device_nokia_PL2"
            remote="main"
-           revision="pos" />
+           revision="pixys" />
            
   <project path="device/nokia/sdm660-common"
            name="device_nokia_sdm660-common"
            remote="main"
-           revision="pos" />
+           revision="pixys" />
            
   <project path="vendor/nokia/PL2"
            name="proprietary_vendor_nokia_PL2"
@@ -37,7 +36,7 @@
 <!--bionic--> 
   <project path="bionic" 
            name="bionic"
-           remote="bhei" 
+           remote="main" 
            revision="thirteen" />
   
 <!--Clang--> 
@@ -45,5 +44,9 @@
            name="clang-r450784d"
            remote="ImSurajxD" 
            revision="master" />
+<!--Clang--> 
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b"            name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b"
+           remote="main" 
+           revision="lineage-20.0" />
   
 </manifest>
