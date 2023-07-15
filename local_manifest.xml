@@ -5,10 +5,7 @@
   <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="leica" fetch="https://gitlab.com/sweetin" /> 
- 
 
-<!--Removals-->
-<remove-project name="frameworks_base"/>
 
 <!--Trees-->
   <project path="device/xiaomi/sweet"
@@ -48,12 +45,6 @@
            remote="leica"
            revision="13" clone-depth="1" />
 
-<!--Fwb--> 
-  <project path="frameworks/base" 
-           name="frameworks_base-1"
-           remote="main" 
-           revision="thirteen" />
-  
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
            name="clang-r450784d"
