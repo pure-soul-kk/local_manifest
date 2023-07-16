@@ -5,17 +5,7 @@
   <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="leica" fetch="https://gitlab.com/sweetin" /> 
-  <remote name="hals" fetch="https://github.com/LineageOS" />
-
-<!--Removals-->
-<remove-project name="vendor_pixys"/>
-<!--Removals-->
-<remove-project name="LineageOS/android_hardware_qcom_display"/>
-<!--Removals-->
-<remove-project name="LineageOS/android_hardware_qcom_audio"/>
-<!--Removals-->
-<remove-project name="LineageOS/android_hardware_qcom_media"/>
-
+ 
 <!--Trees-->
   <project path="device/xiaomi/sweet"
            name="device_xiaomi_sweet"
@@ -53,30 +43,6 @@
            name="vendor_xiaomi_sweet-miuicamera"
            remote="leica"
            revision="13" clone-depth="1" />
-
-<!--Vendor/pixys-->
-  <project path="vendor/pixys" 
-           name="vendor_pixys"
-           remote="main"
-           revision="thirteen" clone-depth="1" />
-
-<!--Display Hals-->
-  <project path="hardware/qcom-caf/sm8150/display" 
-           name="android_hardware_qcom_display"
-           remote="hals"
-           revision="lineage-20.0-caf-sm8150" clone-depth="1" />
-
-<!--Audio hals-->
-  <project path="hardware/qcom-caf/sm8150/audio" 
-           name="android_hardware_qcom_audio"
-           remote="hals"
-           revision="lineage-20.0-caf-sm8150" clone-depth="1" />
-
-<!--Media Hals-->
-  <project path="hardware/qcom-caf/sm8150/media" 
-           name="android_hardware_qcom_media"
-           remote="hals"
-           revision="lineage-20.0-caf-sm8150" clone-depth="1" />
 
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
