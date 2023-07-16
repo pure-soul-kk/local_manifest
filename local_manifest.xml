@@ -5,7 +5,7 @@
   <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="leica" fetch="https://gitlab.com/sweetin" /> 
-<remote name="hals" fetch="https://github.com/LineageOS" />
+  <remote name="hals" fetch="https://github.com/LineageOS" />
 
 <!--Removals-->
 <remove-project name="vendor_pixys"/>
