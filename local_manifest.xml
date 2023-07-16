@@ -6,6 +6,8 @@
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="leica" fetch="https://gitlab.com/sweetin" /> 
 
+<!--Removals-->
+<remove-project name="vendor_pixys"/>
 
 <!--Trees-->
   <project path="device/xiaomi/sweet"
@@ -45,6 +47,12 @@
            remote="leica"
            revision="13" clone-depth="1" />
 
+<!--Vendor/pixys-->
+  <project path="vendor/pixys" 
+           name="vendor_pixys"
+           remote="main"
+           revision="thirteen" clone-depth="1" />
+
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
            name="clang-r450784d"
@@ -53,7 +61,7 @@
            
 <!--Toolchain-->
   <project path="prebuilts/clang/host/linux-x86/r487747c"
-           name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
+       name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
            remote="clang" 
            revision="13.0" clone-depth="1" />
   
