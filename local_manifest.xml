@@ -4,26 +4,26 @@
   <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="leica" fetch="https://gitlab.com/sweetin" /> 
+  <remote name="leica" fetch="https://gitlab.com/pure-soul-kk" /> 
  
 <!--Trees-->
   <project path="device/xiaomi/sweet"
-           name="device_xiaomi_sweet"
+           name="device_xiaomi_sweet-1"
            remote="main"
            revision="pixys" />
            
   <project path="device/xiaomi/sm6150-common"
-           name="device_xiaomi_sm6150-common"
+           name="device_xiaomi_sm6150-common-1"
            remote="main"
            revision="pixys" />
            
   <project path="vendor/xiaomi/sweet"
-           name="proprietary_vendor_xiaomi_sweet"
+           name="vendor_xiaomi_sweet"
            remote="main"
            revision="thirteen" />
            
   <project path="vendor/xiaomi/sm6150-common"
-           name="proprietary_vendor_xiaomi_sm6150-common"
+           name="vendor_xiaomi_sm6150-common"
            remote="main"
            revision="thirteen" />
 
