@@ -8,12 +8,12 @@
  
 <!--Trees-->
   <project path="device/xiaomi/sweet"
-           name="device_xiaomi_sweet-1"
+           name="device_xiaomi_sweet"
            remote="main"
            revision="pixys" />
            
   <project path="device/xiaomi/sm6150-common"
-           name="device_xiaomi_sm6150-common-1"
+           name="device_xiaomi_sm6150-common"
            remote="main"
            revision="pixys" />
            
