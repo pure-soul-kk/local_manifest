@@ -30,7 +30,7 @@
   <project path="kernel/xiaomi/sm6150"
            name="android_kernel_xiaomi_sm6150"
            remote="main"
-           revision="lineage-20" clone-depth="1" />
+           revision="13-test" clone-depth="1" />
   
 <!--Hardware-->
   <project path="hardware/xiaomi"
