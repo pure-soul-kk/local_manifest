@@ -2,7 +2,7 @@
 <manifest>
   <remote name="main" fetch="https://github.com/pure-soul-kk"/>
   <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
-  <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
+  <remote name="clang" fetch="https://gitlab.com/PixelOS-Devices"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="leica" fetch="https://gitlab.com/pure-soul-kk" /> 
  
