@@ -28,9 +28,9 @@
            revision="thirteen" />
 
   <project path="kernel/xiaomi/sm6150"
-           name="kernel_xiaomi_sm6150"
+           name="android_kernel_xiaomi_sm6150"
            remote="main"
-           revision="t13" clone-depth="1" />
+           revision="lineage-20" clone-depth="1" />
   
 <!--Hardware-->
   <project path="hardware/xiaomi"
@@ -51,9 +51,9 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/r487747c"
-       name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
+  <project path="prebuilts/clang/host/linux-86/clang-playground"
+           name="playgroundtc" 
            remote="clang" 
-           revision="13.0" clone-depth="1" />
+           revision="17" clone-depth="1" />
   
 </manifest>
