@@ -2,7 +2,7 @@
 <manifest>
   <remote name="main" fetch="https://github.com/pure-soul-kk"/>
   <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
-  <remote name="clang" fetch="https://gitlab.com/PixelOS-Devices"/>
+  <remote name="clang" fetch="https://gitlab.com/itsshashanksp"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="leica" fetch="https://gitlab.com/pure-soul-kk" /> 
  
@@ -28,9 +28,9 @@
            revision="thirteen" />
 
   <project path="kernel/xiaomi/sm6150"
-           name="android_kernel_xiaomi_sm6150"
+           name="kernel_xiaomi_sm6150"
            remote="main"
-           revision="13-test" clone-depth="1" />
+           revision="t13" clone-depth="1" />
   
 <!--Hardware-->
   <project path="hardware/xiaomi"
@@ -42,7 +42,7 @@
   <project path="vendor/xiaomi/sweet-miuicamera"
            name="vendor_xiaomi_sweet-miuicamera"
            remote="leica"
-           revision="13" clone-depth="1" />
+           revision="13-new" clone-depth="1" />
 
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
@@ -51,9 +51,9 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-86/clang-playground"
-           name="playgroundtc" 
+  <project path="prebuilts/clang/host/linux-x86/r487747c"
+           name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
            remote="clang" 
-           revision="17" clone-depth="1" />
+           revision="13.0" clone-depth="1" />
   
 </manifest>
