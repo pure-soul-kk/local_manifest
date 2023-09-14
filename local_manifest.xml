@@ -10,12 +10,12 @@
   <project path="device/xiaomi/sweet"
            name="device_xiaomi_sweet"
            remote="main"
-           revision="pixys" />
+           revision="main" />
            
   <project path="device/xiaomi/sm6150-common"
-           name="device_xiaomi_sm6150-common"
+           name="android_device_xiaomi_sm6150-common"
            remote="main"
-           revision="pixys" />
+           revision="pixy" />
            
   <project path="vendor/xiaomi/sweet"
            name="vendor_xiaomi_sweet"
@@ -25,12 +25,12 @@
   <project path="vendor/xiaomi/sm6150-common"
            name="vendor_xiaomi_sm6150-common"
            remote="main"
-           revision="thirteen" />
+           revision="aug" />
 
   <project path="kernel/xiaomi/sm6150"
            name="kernel_xiaomi_sm6150"
            remote="main"
-           revision="t13" clone-depth="1" />
+           revision="perf-ln8k" clone-depth="1" />
   
 <!--Hardware-->
   <project path="hardware/xiaomi"
@@ -38,6 +38,12 @@
            remote="hard"
            revision="arrow-13.1" />
 
+<!--Dolby-->
+  <project path="vendor/dolby"
+           name="sony_vendor_dolby"
+           remote="main"
+           revision="13" />
+  
 <!--ANX Cam-->
   <project path="vendor/xiaomi/sweet-miuicamera"
            name="vendor_xiaomi_sweet-miuicamera"
@@ -51,8 +57,8 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/r487747c"
-           name="android_prebuilts_clang_host_linux-x86_clang-r487747c" 
+  <project path="prebuilts/clang/host/linux-x86/r498229b"
+           name="android_prebuilts_clang_host_linux-x86_clang-r498229b" 
            remote="clang" 
            revision="13.0" clone-depth="1" />
   
