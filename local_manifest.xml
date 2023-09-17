@@ -44,6 +44,12 @@
            remote="main"
            revision="13" />
   
+<!--FM-->
+  <project path="packages/apps/RevampedFMRadio"
+           name="RevampedFMRadio"
+           remote="main"
+           revision="qcom" />
+  
 <!--ANX Cam-->
   <project path="vendor/xiaomi/sweet-miuicamera"
            name="vendor_xiaomi_sweet-miuicamera"
