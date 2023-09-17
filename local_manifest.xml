@@ -13,9 +13,9 @@
            revision="main" />
            
   <project path="device/xiaomi/sm6150-common"
-           name="android_device_xiaomi_sm6150-common"
+           name="device_xiaomi_sm6150-common"
            remote="main"
-           revision="pixy" />
+           revision="pixy-qpr3" />
            
   <project path="vendor/xiaomi/sweet"
            name="vendor_xiaomi_sweet"
@@ -30,7 +30,7 @@
   <project path="kernel/xiaomi/sm6150"
            name="kernel_xiaomi_sm6150"
            remote="main"
-           revision="perf-ln8k" clone-depth="1" />
+           revision="sleepy" clone-depth="1" />
   
 <!--Hardware-->
   <project path="hardware/xiaomi"
