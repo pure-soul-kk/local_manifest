@@ -28,9 +28,9 @@
            revision="aug" />
 
   <project path="kernel/xiaomi/sm6150"
-           name="kernel_xiaomi_sm6150"
+           name="zelo_kernel_xiaomi_sm6150"
            remote="main"
-           revision="sleepy" clone-depth="1" />
+           revision="zelo-13" clone-depth="1" />
   
 <!--Hardware-->
   <project path="hardware/xiaomi"
